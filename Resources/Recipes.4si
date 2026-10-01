@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings-import-export all_records="true" char_display_format="decimal" encoding="UTF-8" format="4D" platform="automatic" table_no="6" table_name="Recipes">
+	<text_settings with_column_title="false"/>
+	<field field_no="1" kind="int32" table_no="6"/>
+	<field field_no="2" kind="alpha" table_no="6"/>
+	<field field_no="3" kind="text" table_no="6"/>
+	<field field_no="4" kind="text" table_no="6"/>
+	<field field_no="5" kind="int16" table_no="6"/>
+	<field field_no="6" kind="int16" table_no="6"/>
+	<field field_no="7" kind="int16" table_no="6"/>
+	<field field_no="8" kind="real" table_no="6"/>
+	<field field_no="9" kind="alpha" table_no="6"/>
+	<field field_no="10" kind="real" table_no="6"/>
+	<field field_no="11" kind="alpha" table_no="6"/>
+	<field field_no="12" kind="real" table_no="6"/>
+	<field field_no="13" kind="alpha" table_no="6"/>
+	<field field_no="14" kind="real" table_no="6"/>
+	<field field_no="15" kind="alpha" table_no="6"/>
+	<field field_no="16" kind="picture" table_no="6"/>                                </settings-import-export>

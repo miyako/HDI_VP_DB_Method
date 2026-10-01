@@ -1,0 +1,894 @@
+{
+	"destination": "listScreen",
+	"rightMargin": 16,
+	"bottomMargin": 10,
+	"markerHeader": 17,
+	"markerBody": 41,
+	"markerBreak": 44,
+	"markerFooter": 44,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Picture16": {
+					"type": "picture",
+					"top": -5,
+					"left": 0,
+					"width": 2785,
+					"height": 22,
+					"sizingX": "grow",
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture16.png"
+				},
+				"S1_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 24,
+					"width": 48,
+					"height": 15,
+					"sizingX": "grow",
+					"text": ":xliff:Recipes_ID",
+					"stroke": "automatic"
+				},
+				"S2_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 104,
+					"width": 245,
+					"height": 15,
+					"sizingX": "grow",
+					"text": ":xliff:Recipes_Name",
+					"stroke": "automatic"
+				},
+				"S3_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 381,
+					"width": 210,
+					"height": 15,
+					"sizingX": "grow",
+					"text": ":xliff:Recipes_Ingredients",
+					"stroke": "automatic"
+				},
+				"S4_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 623,
+					"width": 210,
+					"height": 15,
+					"sizingX": "grow",
+					"text": ":xliff:Recipes_Directions",
+					"stroke": "automatic"
+				},
+				"S5_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 865,
+					"width": 58,
+					"height": 15,
+					"sizingX": "grow",
+					"text": ":xliff:Recipes_CookTime",
+					"stroke": "automatic"
+				},
+				"S6_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 955,
+					"width": 92,
+					"height": 15,
+					"sizingX": "grow",
+					"text": ":xliff:Recipes_PreparationTime",
+					"stroke": "automatic"
+				},
+				"S7_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 1079,
+					"width": 46,
+					"height": 15,
+					"sizingX": "grow",
+					"text": ":xliff:Recipes_Calories",
+					"stroke": "automatic"
+				},
+				"S8_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 1157,
+					"width": 102,
+					"height": 15,
+					"sizingX": "grow",
+					"text": ":xliff:Recipes_Nutrition1Number",
+					"stroke": "automatic"
+				},
+				"S9_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 1291,
+					"width": 245,
+					"height": 15,
+					"sizingX": "grow",
+					"text": ":xliff:Recipes_Nutrition1Label",
+					"stroke": "automatic"
+				},
+				"S10_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 1568,
+					"width": 102,
+					"height": 15,
+					"sizingX": "grow",
+					"text": ":xliff:Recipes_Nutrition2Number",
+					"stroke": "automatic"
+				},
+				"S11_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 1702,
+					"width": 245,
+					"height": 15,
+					"sizingX": "grow",
+					"text": ":xliff:Recipes_Nutrition2Label",
+					"stroke": "automatic"
+				},
+				"S12_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 1979,
+					"width": 102,
+					"height": 15,
+					"sizingX": "grow",
+					"text": ":xliff:Recipes_Nutrition3Number",
+					"stroke": "automatic"
+				},
+				"S13_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 2113,
+					"width": 245,
+					"height": 15,
+					"sizingX": "grow",
+					"text": ":xliff:Recipes_Nutrition3Label",
+					"stroke": "automatic"
+				},
+				"S14_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 2390,
+					"width": 102,
+					"height": 15,
+					"sizingX": "grow",
+					"text": ":xliff:Recipes_Nutrition4Number",
+					"stroke": "automatic"
+				},
+				"S15_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 2524,
+					"width": 245,
+					"height": 15,
+					"sizingX": "grow",
+					"text": ":xliff:Recipes_Nutrition4Label",
+					"stroke": "automatic"
+				},
+				"Rectangle17": {
+					"type": "rectangle",
+					"top": 17,
+					"left": 0,
+					"width": 2785,
+					"height": 24,
+					"sizingX": "grow",
+					"stroke": "transparent",
+					"fill": "automatic"
+				},
+				"S1_Field": {
+					"type": "input",
+					"top": 21,
+					"left": 24,
+					"width": 48,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[Recipes:6]ID:1",
+					"dataSourceTypeHint": "integer",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"stroke": "automatic"
+				},
+				"S2_Field": {
+					"type": "input",
+					"top": 21,
+					"left": 104,
+					"width": 245,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[Recipes:6]Name:2",
+					"fill": "automatic",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"stroke": "automatic"
+				},
+				"S3_Field": {
+					"type": "input",
+					"top": 21,
+					"left": 381,
+					"width": 210,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[Recipes:6]Ingredients:3",
+					"fill": "automatic",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"stroke": "automatic"
+				},
+				"S4_Field": {
+					"type": "input",
+					"top": 21,
+					"left": 623,
+					"width": 210,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[Recipes:6]Directions:4",
+					"fill": "automatic",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"stroke": "automatic"
+				},
+				"S5_Field": {
+					"type": "input",
+					"top": 21,
+					"left": 865,
+					"width": 58,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[Recipes:6]CookTime:5",
+					"fill": "automatic",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"stroke": "automatic"
+				},
+				"S6_Field": {
+					"type": "input",
+					"top": 21,
+					"left": 955,
+					"width": 92,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[Recipes:6]PreparationTime:6",
+					"fill": "automatic",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"stroke": "automatic"
+				},
+				"S7_Field": {
+					"type": "input",
+					"top": 21,
+					"left": 1079,
+					"width": 46,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[Recipes:6]Calories:7",
+					"fill": "automatic",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"stroke": "automatic"
+				},
+				"S8_Field": {
+					"type": "input",
+					"top": 21,
+					"left": 1157,
+					"width": 102,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[Recipes:6]Nutrition1Number:8",
+					"dataSourceTypeHint": "number",
+					"fill": "automatic",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"stroke": "automatic"
+				},
+				"S9_Field": {
+					"type": "input",
+					"top": 21,
+					"left": 1291,
+					"width": 245,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[Recipes:6]Nutrition1Label:9",
+					"fill": "automatic",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"stroke": "automatic"
+				},
+				"S10_Field": {
+					"type": "input",
+					"top": 21,
+					"left": 1568,
+					"width": 102,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[Recipes:6]Nutrition2Number:10",
+					"dataSourceTypeHint": "number",
+					"fill": "automatic",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"stroke": "automatic"
+				},
+				"S11_Field": {
+					"type": "input",
+					"top": 21,
+					"left": 1702,
+					"width": 245,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[Recipes:6]Nutrition2Label:11",
+					"fill": "automatic",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"stroke": "automatic"
+				},
+				"S12_Field": {
+					"type": "input",
+					"top": 21,
+					"left": 1979,
+					"width": 102,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[Recipes:6]Nutrition3Number:12",
+					"dataSourceTypeHint": "number",
+					"fill": "automatic",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"stroke": "automatic"
+				},
+				"S13_Field": {
+					"type": "input",
+					"top": 21,
+					"left": 2113,
+					"width": 245,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[Recipes:6]Nutrition3Label:13",
+					"fill": "automatic",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"stroke": "automatic"
+				},
+				"S14_Field": {
+					"type": "input",
+					"top": 21,
+					"left": 2390,
+					"width": 102,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[Recipes:6]Nutrition4Number:14",
+					"dataSourceTypeHint": "number",
+					"fill": "automatic",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"stroke": "automatic"
+				},
+				"S15_Field": {
+					"type": "input",
+					"top": 21,
+					"left": 2524,
+					"width": 245,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[Recipes:6]Nutrition4Label:15",
+					"fill": "automatic",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"stroke": "automatic"
+				},
+				"Line18": {
+					"type": "line",
+					"top": -5,
+					"left": 0,
+					"height": 46,
+					"class": "hdi-separator"
+				},
+				"Line19": {
+					"type": "line",
+					"top": -5,
+					"left": 2785,
+					"height": 46,
+					"sizingX": "move",
+					"class": "hdi-separator"
+				},
+				"Line20": {
+					"type": "line",
+					"top": -5,
+					"left": 2508,
+					"height": 46,
+					"class": "hdi-separator"
+				},
+				"Splitter2": {
+					"type": "splitter",
+					"top": -5,
+					"left": 2507,
+					"width": 3,
+					"height": 46,
+					"splitterMode": "move",
+					"borderStyle": "none",
+					"events": [
+						"onClick"
+					]
+				},
+				"Line21": {
+					"type": "line",
+					"top": -5,
+					"left": 2374,
+					"height": 46,
+					"class": "hdi-separator"
+				},
+				"Splitter3": {
+					"type": "splitter",
+					"top": -5,
+					"left": 2373,
+					"width": 3,
+					"height": 46,
+					"splitterMode": "move",
+					"borderStyle": "none",
+					"events": [
+						"onClick"
+					]
+				},
+				"Line22": {
+					"type": "line",
+					"top": -5,
+					"left": 2097,
+					"height": 46,
+					"class": "hdi-separator"
+				},
+				"Splitter4": {
+					"type": "splitter",
+					"top": -5,
+					"left": 2096,
+					"width": 3,
+					"height": 46,
+					"splitterMode": "move",
+					"borderStyle": "none",
+					"events": [
+						"onClick"
+					]
+				},
+				"Line23": {
+					"type": "line",
+					"top": -5,
+					"left": 1963,
+					"height": 46,
+					"class": "hdi-separator"
+				},
+				"Splitter5": {
+					"type": "splitter",
+					"top": -5,
+					"left": 1962,
+					"width": 3,
+					"height": 46,
+					"splitterMode": "move",
+					"borderStyle": "none",
+					"events": [
+						"onClick"
+					]
+				},
+				"Line24": {
+					"type": "line",
+					"top": -5,
+					"left": 1686,
+					"height": 46,
+					"class": "hdi-separator"
+				},
+				"Splitter6": {
+					"type": "splitter",
+					"top": -5,
+					"left": 1685,
+					"width": 3,
+					"height": 46,
+					"splitterMode": "move",
+					"borderStyle": "none",
+					"events": [
+						"onClick"
+					]
+				},
+				"Line25": {
+					"type": "line",
+					"top": -5,
+					"left": 1552,
+					"height": 46,
+					"class": "hdi-separator"
+				},
+				"Splitter7": {
+					"type": "splitter",
+					"top": -5,
+					"left": 1551,
+					"width": 3,
+					"height": 46,
+					"splitterMode": "move",
+					"borderStyle": "none",
+					"events": [
+						"onClick"
+					]
+				},
+				"Line26": {
+					"type": "line",
+					"top": -5,
+					"left": 1275,
+					"height": 46,
+					"class": "hdi-separator"
+				},
+				"Splitter8": {
+					"type": "splitter",
+					"top": -5,
+					"left": 1274,
+					"width": 3,
+					"height": 46,
+					"splitterMode": "move",
+					"borderStyle": "none",
+					"events": [
+						"onClick"
+					]
+				},
+				"Line27": {
+					"type": "line",
+					"top": -5,
+					"left": 1141,
+					"height": 46,
+					"class": "hdi-separator"
+				},
+				"Splitter9": {
+					"type": "splitter",
+					"top": -5,
+					"left": 1140,
+					"width": 3,
+					"height": 46,
+					"splitterMode": "move",
+					"borderStyle": "none",
+					"events": [
+						"onClick"
+					]
+				},
+				"Line28": {
+					"type": "line",
+					"top": -5,
+					"left": 1063,
+					"height": 46,
+					"class": "hdi-separator"
+				},
+				"Splitter10": {
+					"type": "splitter",
+					"top": -5,
+					"left": 1062,
+					"width": 3,
+					"height": 46,
+					"splitterMode": "move",
+					"borderStyle": "none",
+					"events": [
+						"onClick"
+					]
+				},
+				"Line29": {
+					"type": "line",
+					"top": -5,
+					"left": 939,
+					"height": 46,
+					"class": "hdi-separator"
+				},
+				"Splitter11": {
+					"type": "splitter",
+					"top": -5,
+					"left": 938,
+					"width": 3,
+					"height": 46,
+					"splitterMode": "move",
+					"borderStyle": "none",
+					"events": [
+						"onClick"
+					]
+				},
+				"Line30": {
+					"type": "line",
+					"top": -5,
+					"left": 849,
+					"height": 46,
+					"class": "hdi-separator"
+				},
+				"Splitter12": {
+					"type": "splitter",
+					"top": -5,
+					"left": 848,
+					"width": 3,
+					"height": 46,
+					"splitterMode": "move",
+					"borderStyle": "none",
+					"events": [
+						"onClick"
+					]
+				},
+				"Line31": {
+					"type": "line",
+					"top": -5,
+					"left": 607,
+					"height": 46,
+					"class": "hdi-separator"
+				},
+				"Splitter13": {
+					"type": "splitter",
+					"top": -5,
+					"left": 606,
+					"width": 3,
+					"height": 46,
+					"splitterMode": "move",
+					"borderStyle": "none",
+					"events": [
+						"onClick"
+					]
+				},
+				"Line32": {
+					"type": "line",
+					"top": -5,
+					"left": 365,
+					"height": 46,
+					"class": "hdi-separator"
+				},
+				"Splitter14": {
+					"type": "splitter",
+					"top": -5,
+					"left": 364,
+					"width": 3,
+					"height": 46,
+					"splitterMode": "move",
+					"borderStyle": "none",
+					"events": [
+						"onClick"
+					]
+				},
+				"Line33": {
+					"type": "line",
+					"top": -5,
+					"left": 88,
+					"height": 46,
+					"class": "hdi-separator"
+				},
+				"Splitter15": {
+					"type": "splitter",
+					"top": -5,
+					"left": 87,
+					"width": 3,
+					"height": 46,
+					"splitterMode": "move",
+					"borderStyle": "none",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	]
+}

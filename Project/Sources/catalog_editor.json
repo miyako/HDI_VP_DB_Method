@@ -1,0 +1,112 @@
+{
+	"tables": {
+		"Recipes": {
+			"color": {
+				"red": 255,
+				"green": 255,
+				"blue": 255,
+				"alpha": 0
+			},
+			"coordinates": {
+				"left": 216.76953125,
+				"top": 24.03515625,
+				"width": 309,
+				"height": 771.33203125
+			},
+			"displayable_fields_count": 34
+		},
+		"(Copy_of_Country)": {
+			"color": {
+				"red": "255",
+				"green": "255",
+				"blue": "255",
+				"alpha": "0"
+			},
+			"coordinates": {
+				"left": "297.48046875",
+				"top": "137.5078125",
+				"width": "243.078125",
+				"height": "309.08984375"
+			},
+			"displayable_fields_count": 12,
+			"fields_ordering": 1
+		},
+		"(Countries)": {
+			"color": {
+				"red": "255",
+				"green": "255",
+				"blue": "255",
+				"alpha": "0"
+			},
+			"coordinates": {
+				"left": "497.48046875",
+				"top": "62.5078125",
+				"width": "390.078125",
+				"height": "272.08984375"
+			},
+			"displayable_fields_count": 10,
+			"fields_ordering": 1
+		},
+		"(Continents)": {
+			"color": {
+				"red": "255",
+				"green": "255",
+				"blue": "255",
+				"alpha": "0"
+			},
+			"coordinates": {
+				"left": "194",
+				"top": "50",
+				"width": "120",
+				"height": "167.33203125"
+			},
+			"displayable_fields_count": 6,
+			"fields_ordering": 1
+		},
+		"(Products)": {
+			"color": {
+				"red": "255",
+				"green": "255",
+				"blue": "255",
+				"alpha": "0"
+			},
+			"coordinates": {
+				"left": "358",
+				"top": "129",
+				"width": "120",
+				"height": "167.33203125"
+			},
+			"displayable_fields_count": 6
+		},
+		"INFO": {
+			"color": {
+				"red": "255",
+				"green": "255",
+				"blue": "255",
+				"alpha": "0"
+			},
+			"coordinates": {
+				"left": "0",
+				"top": "0",
+				"width": "120",
+				"height": "167.33203125"
+			},
+			"displayable_fields_count": 6,
+			"fields_ordering": 2,
+			"fields": {
+				"PageNumber": {
+					"position": 2
+				},
+				"TabTitle": {
+					"position": 3
+				},
+				"Description": {
+					"position": 4
+				},
+				"ID": {
+					"position": 1
+				}
+			}
+		}
+	}
+}

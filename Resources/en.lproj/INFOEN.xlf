@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="INFO" source-language="en" target-language="en">
+		<body>
+			<trans-unit id="INFO_PageNumber" resname="INFO_PageNumber">
+				<source>Page number:</source>
+				<target>Page number:</target>
+			</trans-unit>
+			<trans-unit id="INFO_TabTitle" resname="INFO_TabTitle">
+				<source>Tab Title:</source>
+				<target>Tab Title:</target>
+			</trans-unit>
+			<trans-unit id="INFO_Page" resname="INFO_Page">
+				<source>Page:</source>
+				<target>Page:</target>
+			</trans-unit>
+			<trans-unit id="INFO_Title" resname="INFO_Title">
+				<source>Title</source>
+				<target>Title</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

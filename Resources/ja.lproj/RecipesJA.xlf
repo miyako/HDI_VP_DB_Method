@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="Recipes" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="Recipes_Title" resname="Recipes_Title">
+				<source>Recipes</source>
+				<target>レシピ</target>
+			</trans-unit>
+			<trans-unit id="Recipes_ID" resname="Recipes_ID">
+				<source>ID : </source>
+				<target>ID : </target>
+			</trans-unit>
+			<trans-unit id="Recipes_Name" resname="Recipes_Name">
+				<source>Name : </source>
+				<target>名前 : </target>
+			</trans-unit>
+			<trans-unit id="Recipes_Ingredients" resname="Recipes_Ingredients">
+				<source>Ingredients : </source>
+				<target>材料 : </target>
+			</trans-unit>
+			<trans-unit id="Recipes_Directions" resname="Recipes_Directions">
+				<source>Directions : </source>
+				<target>作り方 : </target>
+			</trans-unit>
+			<trans-unit id="Recipes_CookTime" resname="Recipes_CookTime">
+				<source>CookTime : </source>
+				<target>調理時間 : </target>
+			</trans-unit>
+			<trans-unit id="Recipes_PreparationTime" resname="Recipes_PreparationTime">
+				<source>PreparationTime : </source>
+				<target>準備時間 : </target>
+			</trans-unit>
+			<trans-unit id="Recipes_Calories" resname="Recipes_Calories">
+				<source>Calories : </source>
+				<target>カロリー : </target>
+			</trans-unit>
+			<trans-unit id="Recipes_Nutrition1Number" resname="Recipes_Nutrition1Number">
+				<source>Nutrition1Number : </source>
+				<target>栄養素1 の数値 : </target>
+			</trans-unit>
+			<trans-unit id="Recipes_Nutrition1Label" resname="Recipes_Nutrition1Label">
+				<source>Nutrition1Label : </source>
+				<target>栄養素1 のラベル : </target>
+			</trans-unit>
+			<trans-unit id="Recipes_Nutrition2Number" resname="Recipes_Nutrition2Number">
+				<source>Nutrition2Number : </source>
+				<target>栄養素2 の数値 : </target>
+			</trans-unit>
+			<trans-unit id="Recipes_Nutrition2Label" resname="Recipes_Nutrition2Label">
+				<source>Nutrition2Label : </source>
+				<target>栄養素2 のラベル : </target>
+			</trans-unit>
+			<trans-unit id="Recipes_Nutrition3Number" resname="Recipes_Nutrition3Number">
+				<source>Nutrition3Number : </source>
+				<target>栄養素3 の数値 : </target>
+			</trans-unit>
+			<trans-unit id="Recipes_Nutrition3Label" resname="Recipes_Nutrition3Label">
+				<source>Nutrition3Label : </source>
+				<target>栄養素3 のラベル : </target>
+			</trans-unit>
+			<trans-unit id="Recipes_Nutrition4Number" resname="Recipes_Nutrition4Number">
+				<source>Nutrition4Number : </source>
+				<target>栄養素4 の数値 : </target>
+			</trans-unit>
+			<trans-unit id="Recipes_Nutrition4Label" resname="Recipes_Nutrition4Label">
+				<source>Nutrition4Label : </source>
+				<target>栄養素4 のラベル : </target>
+			</trans-unit>
+			<trans-unit id="Recipes_Picture" resname="Recipes_Picture">
+				<source>Picture : </source>
+				<target>画像 : </target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

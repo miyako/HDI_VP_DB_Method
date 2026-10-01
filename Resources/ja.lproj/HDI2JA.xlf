@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="HDI2" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="HDI2_BtnNext" resname="HDI2_BtnNext">
+				<source>Next</source>
+				<target>次へ</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnUpdate" resname="HDI2_BtnUpdate">
+				<source>Update document</source>
+				<target>ドキュメントを更新</target>
+			</trans-unit>
+			<trans-unit id="HDI2_LabelOS" resname="HDI2_LabelOS">
+				<source>OS informations:</source>
+				<target>OS情報:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_LabelSystem" resname="HDI2_LabelSystem">
+				<source>System:</source>
+				<target>システム:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_LabelParameters" resname="HDI2_LabelParameters">
+				<source>Parameters:</source>
+				<target>パラメーター:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_LabelLicences" resname="HDI2_LabelLicences">
+				<source>4D Licences:</source>
+				<target>4Dライセンス:</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

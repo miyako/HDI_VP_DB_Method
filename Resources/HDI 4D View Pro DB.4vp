@@ -1,0 +1,551 @@
+﻿{
+    "version": 1,
+    "dateCreation": "2018-03-26T12:37:03Z",
+    "dateModified": "2018-05-29T10:24:36Z",
+    "spreadJS": {
+        "version": "11.0.0",
+        "backColor": "#4F466A",
+        "grayAreaBackColor": "#4F466A",
+        "tabStripVisible": false,
+        "sheets": {
+            "Sheet1": {
+                "name": "Sheet1",
+                "columnCount": 7,
+                "rowCount": 20,
+                "spans": [
+                    {
+                        "row": 10,
+                        "rowCount": 1,
+                        "col": 1,
+                        "colCount": 3
+                    },
+                    {
+                        "row": 4,
+                        "rowCount": 15,
+                        "col": 4,
+                        "colCount": 1
+                    },
+                    {
+                        "row": 4,
+                        "rowCount": 15,
+                        "col": 5,
+                        "colCount": 1
+                    },
+                    {
+                        "row": 1,
+                        "rowCount": 2,
+                        "col": 4,
+                        "colCount": 2
+                    },
+                    {
+                        "row": 11,
+                        "rowCount": 2,
+                        "col": 1,
+                        "colCount": 1
+                    },
+                    {
+                        "row": 13,
+                        "rowCount": 2,
+                        "col": 1,
+                        "colCount": 1
+                    },
+                    {
+                        "row": 1,
+                        "rowCount": 9,
+                        "col": 1,
+                        "colCount": 3
+                    }
+                ],
+                "theme": "Office",
+                "data": {
+                    "dataTable": {
+                        "1": {
+                            "1": {
+                                "value": "",
+                                "style": {
+                                    "hAlign": 1,
+                                    "cellType": {
+                                        "allowOverflow": true,
+                                        "typeName": "1",
+                                        "editorType": 1
+                                    }
+                                },
+                                "formula": "Recipes_Image()"
+                            },
+                            "4": {
+                                "value": "Pancakes",
+                                "style": {
+                                    "backColor": "Background 1 40",
+                                    "hAlign": 0,
+                                    "vAlign": 1,
+                                    "font": "34.6667px/18px Calibri",
+                                    "textIndent": 2
+                                },
+                                "formula": "Recipes_Name()"
+                            },
+                            "5": {
+                                "style": {
+                                    "backColor": "Background 1 40",
+                                    "hAlign": 0,
+                                    "vAlign": 1,
+                                    "font": "34.6667px/18px Calibri",
+                                    "textIndent": 2
+                                }
+                            },
+                            "6": {
+                                "value": 20,
+                                "style": {
+                                    "foreColor": "Background 2 -25",
+                                    "hAlign": 1,
+                                    "vAlign": 1,
+                                    "font": "700 26.6667px/18px Calibri"
+                                },
+                                "formula": "G5+G8"
+                            }
+                        },
+                        "2": {
+                            "4": {
+                                "value": "Black beans and Rice ",
+                                "style": {
+                                    "backColor": "Background 1 40",
+                                    "foreColor": "Background 2 -25",
+                                    "hAlign": 0,
+                                    "vAlign": 1,
+                                    "font": "italic 700 34.6667px/18px Calibri",
+                                    "textIndent": 4
+                                }
+                            },
+                            "5": {
+                                "style": {
+                                    "backColor": "Background 1 40",
+                                    "foreColor": "Background 2 -25",
+                                    "hAlign": 0,
+                                    "vAlign": 1,
+                                    "font": "italic 700 34.6667px/18px Calibri",
+                                    "textIndent": 4
+                                }
+                            },
+                            "6": {
+                                "value": "minutes",
+                                "style": {
+                                    "foreColor": "Background 2 -25",
+                                    "hAlign": 1,
+                                    "vAlign": 1,
+                                    "font": "700 14.6667px/18px Calibri"
+                                }
+                            }
+                        },
+                        "3": {
+                            "4": {
+                                "value": "INGREDIENTS",
+                                "style": {
+                                    "backColor": "#2F2E52",
+                                    "foreColor": "Background 2 40",
+                                    "vAlign": 1,
+                                    "textIndent": 2
+                                }
+                            },
+                            "5": {
+                                "value": "DIRECTIONS",
+                                "style": {
+                                    "backColor": "#2F2E52",
+                                    "foreColor": "Background 2 40",
+                                    "vAlign": 1,
+                                    "textIndent": 2
+                                }
+                            },
+                            "6": {
+                                "value": "PREPARATION",
+                                "style": {
+                                    "backColor": "Accent 4 -25",
+                                    "foreColor": "Background 2 40",
+                                    "hAlign": 1,
+                                    "vAlign": 1
+                                }
+                            }
+                        },
+                        "4": {
+                            "4": {
+                                "value": "",
+                                "style": {
+                                    "backColor": "#EBE8F7",
+                                    "hAlign": 0,
+                                    "textIndent": 1,
+                                    "wordWrap": true
+                                },
+                                "formula": "Recipes_Ingredients()"
+                            },
+                            "5": {
+                                "value": "",
+                                "style": {
+                                    "backColor": "#E0DCED",
+                                    "hAlign": 0,
+                                    "textIndent": 1,
+                                    "wordWrap": true
+                                },
+                                "formula": "Recipes_Directions()"
+                            },
+                            "6": {
+                                "value": 5,
+                                "style": {
+                                    "foreColor": "Background 2 -25",
+                                    "hAlign": 1,
+                                    "vAlign": 1,
+                                    "font": "26.6667px/18px Calibri"
+                                },
+                                "formula": "Recipes_PreparationT()"
+                            }
+                        },
+                        "5": {
+                            "4": {
+                                "value": ""
+                            },
+                            "6": {
+                                "value": "minutes",
+                                "style": {
+                                    "foreColor": "Background 2 -25",
+                                    "hAlign": 1,
+                                    "vAlign": 1
+                                }
+                            }
+                        },
+                        "6": {
+                            "4": {
+                                "value": ""
+                            },
+                            "6": {
+                                "value": "COOK",
+                                "style": {
+                                    "backColor": "Accent 4 -25",
+                                    "foreColor": "Background 2 40",
+                                    "hAlign": 1,
+                                    "vAlign": 1
+                                }
+                            }
+                        },
+                        "7": {
+                            "4": {
+                                "value": ""
+                            },
+                            "6": {
+                                "value": 15,
+                                "style": {
+                                    "foreColor": "Background 2 -25",
+                                    "hAlign": 1,
+                                    "vAlign": 1,
+                                    "font": "26.6667px/18px Calibri",
+                                    "imeMode": 1
+                                },
+                                "formula": "Recipes_CookT()"
+                            }
+                        },
+                        "8": {
+                            "4": {
+                                "value": ""
+                            },
+                            "6": {
+                                "value": "minutes",
+                                "style": {
+                                    "foreColor": "Background 2 -25",
+                                    "hAlign": 1,
+                                    "vAlign": 1,
+                                    "themeFont": "Body",
+                                    "imeMode": 1
+                                }
+                            }
+                        },
+                        "9": {
+                            "4": {
+                                "value": ""
+                            }
+                        },
+                        "10": {
+                            "1": {
+                                "value": "NUTRITION REPORT CARD",
+                                "style": {
+                                    "backColor": "#4F8498",
+                                    "foreColor": "Background 2 40",
+                                    "hAlign": 1
+                                }
+                            },
+                            "2": {
+                                "style": {
+                                    "backColor": "Accent 4 -25",
+                                    "foreColor": "Background 2 40"
+                                }
+                            },
+                            "3": {
+                                "style": {
+                                    "backColor": "Accent 4 -25",
+                                    "foreColor": "Background 2 40"
+                                }
+                            },
+                            "4": {
+                                "value": ""
+                            }
+                        },
+                        "11": {
+                            "1": {
+                                "value": 158,
+                                "style": {
+                                    "foreColor": "Background 2 -25",
+                                    "hAlign": 1,
+                                    "vAlign": 1,
+                                    "font": "700 26.6667px/18px Calibri"
+                                },
+                                "formula": "Recipes_Cal()"
+                            },
+                            "2": {
+                                "value": 5.9,
+                                "style": {
+                                    "backColor": "#F6F6F6",
+                                    "foreColor": "Background 2 -50",
+                                    "hAlign": 1,
+                                    "vAlign": 1,
+                                    "font": "700 24px/18px Calibri"
+                                },
+                                "formula": "Recipes_Nut1Num()"
+                            },
+                            "3": {
+                                "value": "g fat",
+                                "style": {
+                                    "backColor": "#F6F6F6",
+                                    "foreColor": "Background 2 -50",
+                                    "vAlign": 1,
+                                    "font": "17.3333px/18px Calibri"
+                                },
+                                "formula": "Recipes_Nut1Label()"
+                            },
+                            "4": {
+                                "value": ""
+                            }
+                        },
+                        "12": {
+                            "1": {
+                                "style": {
+                                    "foreColor": "Background 2 -50",
+                                    "vAlign": 1,
+                                    "font": "700 26.6667px/18px Calibri"
+                                }
+                            },
+                            "2": {
+                                "value": 21.7,
+                                "style": {
+                                    "backColor": "#E6EDF0",
+                                    "foreColor": "Background 2 -50",
+                                    "hAlign": 1,
+                                    "vAlign": 1,
+                                    "font": "700 24px/18px Calibri"
+                                },
+                                "formula": "Recipes_Nut2Num()"
+                            },
+                            "3": {
+                                "value": "g carbohydrates",
+                                "style": {
+                                    "backColor": "#E6EDF0",
+                                    "foreColor": "Background 2 -50",
+                                    "vAlign": 1,
+                                    "font": "17.3333px/18px Calibri"
+                                },
+                                "formula": "Recipes_Nut2Label()"
+                            },
+                            "4": {
+                                "value": ""
+                            }
+                        },
+                        "13": {
+                            "1": {
+                                "value": "CALORIES",
+                                "style": {
+                                    "foreColor": "Background 2 -25",
+                                    "hAlign": 1,
+                                    "vAlign": 1,
+                                    "font": "700 21.3333px/18px Calibri"
+                                }
+                            },
+                            "2": {
+                                "value": 4.5,
+                                "style": {
+                                    "backColor": "#F6F6F6",
+                                    "foreColor": "Background 2 -50",
+                                    "hAlign": 1,
+                                    "vAlign": 1,
+                                    "font": "700 24px/18px Calibri"
+                                },
+                                "formula": "Recipes_Nut3Num()"
+                            },
+                            "3": {
+                                "value": "g protein",
+                                "style": {
+                                    "backColor": "#F6F6F6",
+                                    "foreColor": "Background 2 -50",
+                                    "hAlign": 0,
+                                    "vAlign": 1,
+                                    "font": "17.3333px/18px Calibri"
+                                },
+                                "formula": "Recipes_Nut3Label()"
+                            },
+                            "4": {
+                                "value": ""
+                            }
+                        },
+                        "14": {
+                            "1": {
+                                "style": {
+                                    "foreColor": "Background 2 -50",
+                                    "vAlign": 1,
+                                    "font": "700 21.3333px/18px Calibri"
+                                }
+                            },
+                            "2": {
+                                "value": 38,
+                                "style": {
+                                    "backColor": "#E6EDF0",
+                                    "foreColor": "Background 2 -50",
+                                    "hAlign": 1,
+                                    "vAlign": 1,
+                                    "font": "700 24px/18px Calibri"
+                                },
+                                "formula": "Recipes_Nut4Num()"
+                            },
+                            "3": {
+                                "value": "mg cholesterol",
+                                "style": {
+                                    "backColor": "#E6EDF0",
+                                    "foreColor": "Background 2 -50",
+                                    "hAlign": 0,
+                                    "vAlign": 1,
+                                    "font": "17.3333px/18px Calibri"
+                                },
+                                "formula": "Recipes_Nut4Label()"
+                            },
+                            "4": {
+                                "value": ""
+                            }
+                        },
+                        "15": {
+                            "4": {
+                                "value": ""
+                            }
+                        },
+                        "16": {
+                            "4": {
+                                "value": ""
+                            }
+                        },
+                        "17": {
+                            "4": {
+                                "value": ""
+                            }
+                        }
+                    },
+                    "defaultDataNode": {
+                        "style": {
+                            "themeFont": "Body"
+                        }
+                    }
+                },
+                "rowHeaderData": {
+                    "defaultDataNode": {
+                        "style": {
+                            "themeFont": "Body"
+                        }
+                    }
+                },
+                "colHeaderData": {
+                    "defaultDataNode": {
+                        "style": {
+                            "themeFont": "Body"
+                        }
+                    }
+                },
+                "selections": {
+                    "0": {
+                        "row": 0,
+                        "rowCount": 1,
+                        "col": 0,
+                        "colCount": 1
+                    },
+                    "length": 1
+                },
+                "rows": [
+                    null,
+                    {
+                        "size": 35
+                    },
+                    {
+                        "size": 35
+                    },
+                    {
+                        "size": 35
+                    },
+                    {
+                        "size": 35
+                    },
+                    {
+                        "size": 35
+                    },
+                    {
+                        "size": 35
+                    },
+                    {
+                        "size": 35
+                    },
+                    {
+                        "size": 35
+                    },
+                    {
+                        "size": 35
+                    },
+                    null,
+                    {
+                        "size": 35
+                    },
+                    {
+                        "size": 35
+                    },
+                    {
+                        "size": 35
+                    },
+                    {
+                        "size": 35
+                    },
+                    {
+                        "size": 35
+                    }
+                ],
+                "columns": [
+                    {
+                        "size": 15
+                    },
+                    {
+                        "size": 145
+                    },
+                    {
+                        "size": 135
+                    },
+                    {
+                        "size": 150
+                    },
+                    {
+                        "size": 330
+                    },
+                    {
+                        "size": 380
+                    },
+                    {
+                        "size": 95
+                    }
+                ],
+                "allowCellOverflow": false,
+                "rowHeaderVisible": false,
+                "colHeaderVisible": false,
+                "gridline": {
+                    "showHorizontalGridline": false,
+                    "showVerticalGridline": false
+                },
+                "index": 0
+            }
+        }
+    }
+}
