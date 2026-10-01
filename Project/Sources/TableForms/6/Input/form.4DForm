@@ -45,7 +45,7 @@
 					"left": 504,
 					"width": 100,
 					"height": 13,
-					"stroke": "#000000",
+					"stroke": "automatic",
 					"fontFamily": "Segoe UI",
 					"fontSize": 9,
 					"focusable": false,
@@ -72,8 +72,8 @@
 					"width": 465,
 					"height": 15,
 					"sizingX": "grow",
-					"stroke": "#000000",
-					"text": "Recipes"
+					"stroke": "automatic",
+					"text": ":xliff:Recipes_Title"
 				},
 				"Line20": {
 					"type": "line",
@@ -222,7 +222,8 @@
 					"width": 112,
 					"height": 15,
 					"textAlign": "right",
-					"text": "ID : "
+					"text": ":xliff:Recipes_ID",
+					"stroke": "automatic"
 				},
 				"Text22": {
 					"type": "text",
@@ -231,7 +232,8 @@
 					"width": 112,
 					"height": 15,
 					"textAlign": "right",
-					"text": "Name : "
+					"text": ":xliff:Recipes_Name",
+					"stroke": "automatic"
 				},
 				"Text23": {
 					"type": "text",
@@ -240,7 +242,8 @@
 					"width": 112,
 					"height": 15,
 					"textAlign": "right",
-					"text": "Ingredients : "
+					"text": ":xliff:Recipes_Ingredients",
+					"stroke": "automatic"
 				},
 				"Text24": {
 					"type": "text",
@@ -249,7 +252,8 @@
 					"width": 112,
 					"height": 15,
 					"textAlign": "right",
-					"text": "Directions : "
+					"text": ":xliff:Recipes_Directions",
+					"stroke": "automatic"
 				},
 				"Text25": {
 					"type": "text",
@@ -258,7 +262,8 @@
 					"width": 112,
 					"height": 15,
 					"textAlign": "right",
-					"text": "CookTime : "
+					"text": ":xliff:Recipes_CookTime",
+					"stroke": "automatic"
 				},
 				"Text26": {
 					"type": "text",
@@ -267,7 +272,8 @@
 					"width": 112,
 					"height": 15,
 					"textAlign": "right",
-					"text": "PreparationTime : "
+					"text": ":xliff:Recipes_PreparationTime",
+					"stroke": "automatic"
 				},
 				"Text27": {
 					"type": "text",
@@ -276,7 +282,8 @@
 					"width": 112,
 					"height": 15,
 					"textAlign": "right",
-					"text": "Calories : "
+					"text": ":xliff:Recipes_Calories",
+					"stroke": "automatic"
 				},
 				"Text28": {
 					"type": "text",
@@ -285,7 +292,8 @@
 					"width": 112,
 					"height": 15,
 					"textAlign": "right",
-					"text": "Nutrition1Number : "
+					"text": ":xliff:Recipes_Nutrition1Number",
+					"stroke": "automatic"
 				},
 				"Text29": {
 					"type": "text",
@@ -294,7 +302,8 @@
 					"width": 112,
 					"height": 15,
 					"textAlign": "right",
-					"text": "Nutrition1Label : "
+					"text": ":xliff:Recipes_Nutrition1Label",
+					"stroke": "automatic"
 				},
 				"Text30": {
 					"type": "text",
@@ -303,7 +312,8 @@
 					"width": 112,
 					"height": 15,
 					"textAlign": "right",
-					"text": "Nutrition2Number : "
+					"text": ":xliff:Recipes_Nutrition2Number",
+					"stroke": "automatic"
 				},
 				"Text31": {
 					"type": "text",
@@ -312,7 +322,8 @@
 					"width": 112,
 					"height": 15,
 					"textAlign": "right",
-					"text": "Nutrition2Label : "
+					"text": ":xliff:Recipes_Nutrition2Label",
+					"stroke": "automatic"
 				},
 				"Text32": {
 					"type": "text",
@@ -321,7 +332,8 @@
 					"width": 112,
 					"height": 15,
 					"textAlign": "right",
-					"text": "Nutrition3Number : "
+					"text": ":xliff:Recipes_Nutrition3Number",
+					"stroke": "automatic"
 				},
 				"Text33": {
 					"type": "text",
@@ -330,7 +342,8 @@
 					"width": 112,
 					"height": 15,
 					"textAlign": "right",
-					"text": "Nutrition3Label : "
+					"text": ":xliff:Recipes_Nutrition3Label",
+					"stroke": "automatic"
 				},
 				"Text34": {
 					"type": "text",
@@ -339,7 +352,8 @@
 					"width": 112,
 					"height": 15,
 					"textAlign": "right",
-					"text": "Nutrition4Number : "
+					"text": ":xliff:Recipes_Nutrition4Number",
+					"stroke": "automatic"
 				},
 				"Text35": {
 					"type": "text",
@@ -348,7 +362,8 @@
 					"width": 112,
 					"height": 15,
 					"textAlign": "right",
-					"text": "Nutrition4Label : "
+					"text": ":xliff:Recipes_Nutrition4Label",
+					"stroke": "automatic"
 				},
 				"Text36": {
 					"type": "text",
@@ -357,7 +372,8 @@
 					"width": 112,
 					"height": 15,
 					"textAlign": "right",
-					"text": "Picture : "
+					"text": ":xliff:Recipes_Picture",
+					"stroke": "automatic"
 				},
 				"ID": {
 					"type": "input",
@@ -385,7 +401,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Name": {
 					"type": "input",
@@ -395,7 +412,7 @@
 					"height": 16,
 					"dataSource": "[Recipes:6]Name:2",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -410,7 +427,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Ingredients": {
 					"type": "input",
@@ -420,7 +438,7 @@
 					"height": 272,
 					"dataSource": "[Recipes:6]Ingredients:3",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"scrollbarVertical": "visible",
@@ -436,7 +454,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Directions": {
 					"type": "input",
@@ -446,7 +465,7 @@
 					"height": 272,
 					"dataSource": "[Recipes:6]Directions:4",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"scrollbarVertical": "visible",
@@ -462,7 +481,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"CookTime": {
 					"type": "input",
@@ -472,7 +492,7 @@
 					"height": 16,
 					"dataSource": "[Recipes:6]CookTime:5",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -487,7 +507,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"PreparationTime": {
 					"type": "input",
@@ -497,7 +518,7 @@
 					"height": 16,
 					"dataSource": "[Recipes:6]PreparationTime:6",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -512,7 +533,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Calories": {
 					"type": "input",
@@ -522,7 +544,7 @@
 					"height": 16,
 					"dataSource": "[Recipes:6]Calories:7",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -537,7 +559,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Nutrition1Number": {
 					"type": "input",
@@ -548,7 +571,7 @@
 					"dataSource": "[Recipes:6]Nutrition1Number:8",
 					"dataSourceTypeHint": "number",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -563,7 +586,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Nutrition1Label": {
 					"type": "input",
@@ -573,7 +597,7 @@
 					"height": 16,
 					"dataSource": "[Recipes:6]Nutrition1Label:9",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -588,7 +612,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Nutrition2Number": {
 					"type": "input",
@@ -599,7 +624,7 @@
 					"dataSource": "[Recipes:6]Nutrition2Number:10",
 					"dataSourceTypeHint": "number",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -614,7 +639,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Nutrition2Label": {
 					"type": "input",
@@ -624,7 +650,7 @@
 					"height": 16,
 					"dataSource": "[Recipes:6]Nutrition2Label:11",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -639,7 +665,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Nutrition3Number": {
 					"type": "input",
@@ -650,7 +677,7 @@
 					"dataSource": "[Recipes:6]Nutrition3Number:12",
 					"dataSourceTypeHint": "number",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -665,7 +692,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Nutrition3Label": {
 					"type": "input",
@@ -675,7 +703,7 @@
 					"height": 16,
 					"dataSource": "[Recipes:6]Nutrition3Label:13",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -690,7 +718,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Nutrition4Number": {
 					"type": "input",
@@ -701,7 +730,7 @@
 					"dataSource": "[Recipes:6]Nutrition4Number:14",
 					"dataSourceTypeHint": "number",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -716,7 +745,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Nutrition4Label": {
 					"type": "input",
@@ -726,7 +756,7 @@
 					"height": 16,
 					"dataSource": "[Recipes:6]Nutrition4Label:15",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -741,7 +771,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Picture": {
 					"type": "input",
@@ -751,7 +782,7 @@
 					"height": 250,
 					"dataSource": "[Recipes:6]Picture:16",
 					"dataSourceTypeHint": "picture",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"scrollbarVertical": "visible",
 					"scrollbarHorizontal": "visible",
@@ -766,7 +797,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"stroke": "automatic"
 				}
 			}
 		}

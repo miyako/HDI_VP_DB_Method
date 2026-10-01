@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="HDI2" source-language="en" target-language="en">
+		<body>
+			<trans-unit id="HDI2_BtnNext" resname="HDI2_BtnNext">
+				<source>Next</source>
+				<target>Next</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnUpdate" resname="HDI2_BtnUpdate">
+				<source>Update document</source>
+				<target>Update document</target>
+			</trans-unit>
+			<trans-unit id="HDI2_LabelOS" resname="HDI2_LabelOS">
+				<source>OS informations:</source>
+				<target>OS informations:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_LabelSystem" resname="HDI2_LabelSystem">
+				<source>System:</source>
+				<target>System:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_LabelParameters" resname="HDI2_LabelParameters">
+				<source>Parameters:</source>
+				<target>Parameters:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_LabelLicences" resname="HDI2_LabelLicences">
+				<source>4D Licences:</source>
+				<target>4D Licences:</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

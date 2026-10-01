@@ -2,12 +2,6 @@ Case of
 		
 	: (Form event code:C388=On Load:K2:1)
 		
-		ARRAY TEXT:C222(_TabTitles; 0)
-		C_COLLECTION:C1488(Infos; ShoppingCart)
-		C_OBJECT:C1216(VirtualStructure; GetSystemInfo; GetLicenceInfo)
-		C_TEXT:C284(FilePathDB)
-		C_TEXT:C284(Sys_label; Param_label; OS_Label; LicenceLabel)
-		
 		Infos:=ds:C1482.INFO.all().orderBy("PageNumber").toCollection()
 		COLLECTION TO ARRAY:C1562(Infos.query("PageNumber<4"); _TabTitles; "TabTitle")
 		
@@ -25,10 +19,10 @@ Case of
 		
 		
 		// Creation of the variables for the titles lables
-		SysLabel:="System"
-		ParamLabel:="Parameters"
-		OSLabel:="OS informations"
-		LicenceLabel:="4D Licences"
+		SysLabel:=Localized string("LabelSystem")
+		ParamLabel:=Localized string("LabelParameters")
+		OSLabel:=Localized string("LabelOS")
+		LicenceLabel:=Localized string("LabelLicences")
 		
 		// for performance reason, the get system info and
 		// get licence info objects are loaded in this variables

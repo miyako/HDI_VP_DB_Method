@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="Recipes" source-language="en" target-language="en">
+		<body>
+			<trans-unit id="Recipes_Title" resname="Recipes_Title">
+				<source>Recipes</source>
+				<target>Recipes</target>
+			</trans-unit>
+			<trans-unit id="Recipes_ID" resname="Recipes_ID">
+				<source>ID : </source>
+				<target>ID : </target>
+			</trans-unit>
+			<trans-unit id="Recipes_Name" resname="Recipes_Name">
+				<source>Name : </source>
+				<target>Name : </target>
+			</trans-unit>
+			<trans-unit id="Recipes_Ingredients" resname="Recipes_Ingredients">
+				<source>Ingredients : </source>
+				<target>Ingredients : </target>
+			</trans-unit>
+			<trans-unit id="Recipes_Directions" resname="Recipes_Directions">
+				<source>Directions : </source>
+				<target>Directions : </target>
+			</trans-unit>
+			<trans-unit id="Recipes_CookTime" resname="Recipes_CookTime">
+				<source>CookTime : </source>
+				<target>CookTime : </target>
+			</trans-unit>
+			<trans-unit id="Recipes_PreparationTime" resname="Recipes_PreparationTime">
+				<source>PreparationTime : </source>
+				<target>PreparationTime : </target>
+			</trans-unit>
+			<trans-unit id="Recipes_Calories" resname="Recipes_Calories">
+				<source>Calories : </source>
+				<target>Calories : </target>
+			</trans-unit>
+			<trans-unit id="Recipes_Nutrition1Number" resname="Recipes_Nutrition1Number">
+				<source>Nutrition1Number : </source>
+				<target>Nutrition1Number : </target>
+			</trans-unit>
+			<trans-unit id="Recipes_Nutrition1Label" resname="Recipes_Nutrition1Label">
+				<source>Nutrition1Label : </source>
+				<target>Nutrition1Label : </target>
+			</trans-unit>
+			<trans-unit id="Recipes_Nutrition2Number" resname="Recipes_Nutrition2Number">
+				<source>Nutrition2Number : </source>
+				<target>Nutrition2Number : </target>
+			</trans-unit>
+			<trans-unit id="Recipes_Nutrition2Label" resname="Recipes_Nutrition2Label">
+				<source>Nutrition2Label : </source>
+				<target>Nutrition2Label : </target>
+			</trans-unit>
+			<trans-unit id="Recipes_Nutrition3Number" resname="Recipes_Nutrition3Number">
+				<source>Nutrition3Number : </source>
+				<target>Nutrition3Number : </target>
+			</trans-unit>
+			<trans-unit id="Recipes_Nutrition3Label" resname="Recipes_Nutrition3Label">
+				<source>Nutrition3Label : </source>
+				<target>Nutrition3Label : </target>
+			</trans-unit>
+			<trans-unit id="Recipes_Nutrition4Number" resname="Recipes_Nutrition4Number">
+				<source>Nutrition4Number : </source>
+				<target>Nutrition4Number : </target>
+			</trans-unit>
+			<trans-unit id="Recipes_Nutrition4Label" resname="Recipes_Nutrition4Label">
+				<source>Nutrition4Label : </source>
+				<target>Nutrition4Label : </target>
+			</trans-unit>
+			<trans-unit id="Recipes_Picture" resname="Recipes_Picture">
+				<source>Picture : </source>
+				<target>Picture : </target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

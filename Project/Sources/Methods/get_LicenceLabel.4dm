@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"invisible":true}
 // ----------------------------------------------------
 // User name (OS) : fmainguene
 // Date et time : 04/06/18, 15:48:43
@@ -7,10 +7,10 @@
 // Description
 // Return the title of the licence part in the document
 // Parameters: 
-// $0: C_TEXT-> return the value of the variable LicenceLabel
+// $result: Text-> return the value of the variable LicenceLabel
 // ----------------------------------------------------
 
-C_TEXT:C284($0)
+#DECLARE->$result : Text
 
 
-$0:=LicenceLabel
+$result:=LicenceLabel

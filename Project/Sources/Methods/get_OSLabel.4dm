@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"invisible":true}
 // ----------------------------------------------------
 // User name (OS) : fmainguene
 // Date et time : 04/06/18, 15:48:43
@@ -7,9 +7,9 @@
 // Description
 // Return the title of the OS information part in the document 
 // Parameters: 
-// $0: C_TEXT-> return the value of the variable OSLabel
+// $result: Text-> return the value of the variable OSLabel
 // ----------------------------------------------------
 
-C_TEXT:C284($0)
+#DECLARE->$result : Text
 
-$0:=OSLabel
+$result:=OSLabel
